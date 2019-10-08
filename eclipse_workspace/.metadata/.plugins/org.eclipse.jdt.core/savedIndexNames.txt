@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/chufu/Documents/eclipse_workspace/.metadata/.plugins/org.eclipse.jdt.core
+3927879410.index
+1074730752.index
+3071454025.index
