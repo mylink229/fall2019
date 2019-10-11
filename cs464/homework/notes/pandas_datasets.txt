@@ -1,0 +1,15 @@
+(python)
+
+---Basic Data Handling---
+
+df["Species"] = df ["Species"].apply(lambda x: 0 if == "setosa" else x)
+df.head()
+
+## it'll bring out some table filled with data ##
+
+def function(x):
+	return "Hello world" + str(x)
+
+f = lambda x: "hello world" + str(x)
+
+## these datasets are stored as multi-demensional arrays
