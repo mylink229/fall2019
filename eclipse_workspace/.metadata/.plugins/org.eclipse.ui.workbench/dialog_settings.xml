@@ -15,7 +15,9 @@
 	<section name="ImportExportAction">
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="618"/>
+		<item key="DIALOG_X_ORIGIN" value="594"/>
 		<item key="DIALOG_Y_ORIGIN" value="153"/>
+	</section>
+	<section name="FileSystemImportWizard">
 	</section>
 </section>
