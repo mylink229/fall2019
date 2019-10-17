@@ -1,0 +1,41 @@
+AI Project 1, October 17, 2019
+
+Code to use:
+
+SearchProblem IN search => 
+	-getSuccessors()  => gets successor, action, and stepCost OF the state that is passed
+				through the parameter
+	-getCostOfActions() => gets cost of sequence of actions 
+
+Configuration IN game.py => holds (x,y) coordinate of a character, along with travel directions
+	-getPosition() => gets position of current state
+
+GameState IN pacman.py => use this object to gather information to access data
+	-generateSuccessor() => returns the successor state after specified agent
+					takes the action
+
+_____________________________________________________________
+
+Theory:
+
+-Use search.py to implement search algorithms, called by Pacman agents in searchAgents.py
+
+_____________________________________________________________
+
+Questions:
+
+-Where do I get/store the search tree in the algorithms?
+	-Do I make it within the algorithm?
+	-Do I call it from another object?
+-How do I get the directions?
+	* From SearchProblem.getSuccessors() ? *
+-How do we test the directions?
+	* When making a move, call Configurations.getPosition to get position, then store it
+	in an array ? *
+-Does the longest array mean it's the longest node-path?
+	* If I'm storing these nodes/positions into an array, then it should be the longest
+	array is the longest node-path ? *
+-What are nodes? How do the directions work?
+	* Seems like for each n, e, s, w, it's 1 space ? *
+-I don't think we have an array, searchTree, but rather just an idea is the search tree.
+	* But we store the possiblities 

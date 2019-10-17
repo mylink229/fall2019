@@ -81,13 +81,28 @@ def depthFirstSearch(problem):
 
     To get started, you might want to try some of these simple commands to
     understand the search problem that is being passed in:
-    """
 
     print("Start:", problem.getStartState())
     print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
+    """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    """util.raiseNotDefined()"""
+    from game import Directions
+    from game import Configuration 
+    test1 = Configuration()
+    #test1 = Configuration().getPosition
+    test = SearchProblem()
+    test.getSuccessors(test1.getPosition)
+    searchTree = []
+    actions = []
+
+    s = Directions.SOUTH
+    w = Directions.WEST
+    n = Directions.NORTH
+    e = Directions.EAST
+    return  []
+
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
