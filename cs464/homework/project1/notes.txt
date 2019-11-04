@@ -2,7 +2,7 @@ AI Project 1, October 17, 2019
 
 Code to use:
 
-SearchProblem IN search => 
+SearchProblem IN search.py => 
 	-getSuccessors()  => gets successor, action, and stepCost OF the state that is passed
 				through the parameter
 	-getCostOfActions() => gets cost of sequence of actions 
@@ -13,12 +13,18 @@ Configuration IN game.py => holds (x,y) coordinate of a character, along with tr
 GameState IN pacman.py => use this object to gather information to access data
 	-generateSuccessor() => returns the successor state after specified agent
 					takes the action
+PositionSearchProblem IN searchAgents.py =>
+	-getStartState()
+	-isGoalState()
+	-etc.
+In the command arguments, -a => arguments for SearchAgent IN searchAgents.py, -p => pacman type, -l => layout
 
 _____________________________________________________________
 
 Theory:
 
 -Use search.py to implement search algorithms, called by Pacman agents in searchAgents.py
+-Successors array shouldn't be any more than just a few because it's oriented to the current node
 
 _____________________________________________________________
 

@@ -82,37 +82,98 @@ def depthFirstSearch(problem):
     To get started, you might want to try some of these simple commands to
     understand the search problem that is being passed in:
 
-    print("Start:", problem.getStartState())
-    print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
-    print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
     "*** YOUR CODE HERE ***"
     """util.raiseNotDefined()"""
-    from game import Directions
-    from game import Configuration 
-    test1 = Configuration()
-    #test1 = Configuration().getPosition
-    test = SearchProblem()
-    test.getSuccessors(test1.getPosition)
-    searchTree = []
-    actions = []
+    #print("Start:", problem.getStartState())
+    #print("Is the start a goal?", problem.isGoalState(problem.getStartState())) #false
+    #print("Is the start a goal?", problem.isGoalState((1,1))) #true
+    #print("Start's successors:", problem.getSuccessors(problem.getStartState()))
+ 
+    #start = problem.getStartState()
+    fringe = util.Stack()
+    vistedSuccessors = []
 
-    s = Directions.SOUTH
-    w = Directions.WEST
-    n = Directions.NORTH
-    e = Directions.EAST
-    return  []
+    # gets start state
+    currentState = problem.getStartState()
+    # no direction since just starting
+    direction = []
+    # cost = 0 since just starting
+    cost = 0
+    vistedSuccessors.append(currentState)
 
+    # before this while loop, currentState == (5,5)
+    # therefore, the goal state is false and will 
+    # kick off this loop
+    while not problem.isGoalState(currentState):
+        sucessors = problem.getSuccessors(currentState)
+        for s in sucessors:
+            if (s[0] not in vistedSuccessors ):
+                fringe.push((s[0], direction + [s[1]], cost + s[2]))
+                vistedSuccessors.append(s[0])
+        (currentState, direction, cost) = fringe.pop()
+    return direction
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    #util.raiseNotDefined()
+    currentState = problem.getStartState()
+    directions = []
+    cost = 0
+    fringe = util.Queue()
+    vistedSuccessors = []
+    vistedSuccessors.append(currentState)
+
+    while not problem.isGoalState(currentState):
+        successors = problem.getSuccessors(currentState)
+        for s in successors:
+            if (s[0] not in vistedSuccessors) or (problem.isGoalState(s[0])):
+                fringe.push((s[0], directions + [s[1]], cost + s[2]))
+                vistedSuccessors.append(s[0])
+        (currentState, directions, cost) = fringe.pop()
+
+    return directions
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    fringe = util.PriorityQueue() 
+    visitedSuccessor = []
+    currentState = problem.getStartState
+    directions = []
+    cost = 0
+    totalCost = 0
+
+    fringe.push((problem.getStartState(),[],0),0)
+
+    (currentState,directions,cost) = fringe.pop()
+
+    visitedSuccessor.append((currentState,cost))
+
+    while not problem.isGoalState(currentState): 
+        successors = problem.getSuccessors(currentState) 
+        for s in successors:
+            visitedExist = False
+            totalCost = cost + s[2]
+            for (visitedState, visitedToCost) in visitedSuccessor:
+                if (s[0] == visitedState) and (cost >= visitedToCost): 
+                    visitedExist = True
+                    break
+
+            if not visitedExist:        
+                fringe.push((s[0],directions + [s[1]],cost + s[2]),cost + s[2]) 
+                visitedSuccessor.append((s[0],cost + s[2])) 
+
+        (currentState,directions,cost) = fringe.pop()
+
+    return directions
+
+
+
+
+
+
 
 def nullHeuristic(state, problem=None):
     """
@@ -124,7 +185,34 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    #util.raiseNotDefined()
+    fringe = util.PriorityQueue()
+    visitedSuccessors = []
+    cost = 0
+    totalCost = 0
+    directions = []
+    currentState = problem.getStartState()
+    heri = heuristic(currentState, problem)
+
+    visitedSuccessors.append((currentState, cost + heri))
+
+    while not problem.isGoalState(currentState): 
+        successors = problem.getSuccessors(currentState)
+        for s in successors:
+            visitedExist = False
+            totalCost = cost + s[2]
+            for (visitedState,visitedToCost) in visitedSuccessors:
+                if (s[0] == visitedState) and (totalCost >= visitedToCost): 
+                    visitedExist = True
+                    break
+
+            if not visitedExist:        
+                fringe.push((s[0],directions + [s[1]],cost + s[2]),cost + s[2] + heuristic(s[0],problem)) 
+                visitedSuccessors.append((s[0],cost + s[2])) 
+
+        (currentState,directions,cost) = fringe.pop()
+
+    return directions
 
 
 # Abbreviations
