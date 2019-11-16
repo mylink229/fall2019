@@ -14,3 +14,4 @@ main:
     mov [a], al
     mov [b], bl
     ret
+

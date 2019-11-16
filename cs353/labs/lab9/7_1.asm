@@ -1,44 +1,43 @@
     segment .data
-a   dq  01100101
+a   db  01100101b
 b   db  0
 
     segment .text
     global main
 main:
-    ;xor rdx, rdx
-    ;xor rax, rax
     mov rax, [a]
     
-    bt  ax, 0
+    bt  rax, 0
     setc dl
     mov [b], dl
     
-    bt  ax, 1
+    bt  rax, 1
     setc dl
     add [b], dl
     
-    bt  ax, 2
+    bt  rax, 2
     setc dl
     add [b], dl
     
-    bt  ax, 3
+    bt  rax, 3
     setc dl
     add [b], dl
     
-    bt  ax, 4
+    bt  rax, 4
     setc dl
     add [b], dl
     
-    bt  ax, 5
+    bt  rax, 5
     setc dl
     add [b], dl
     
-    bt  ax, 6
+    bt  rax, 6
     setc dl
     add [b], dl
     
-    bt  ax, 7
+    bt  rax, 7
     setc dl
     add [b], dl 
 
     ret
+
