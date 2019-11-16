@@ -1,0 +1,2 @@
+cmovl rax, 0
+# move if result was negative

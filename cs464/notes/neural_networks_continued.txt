@@ -1,0 +1,24 @@
+Nov. 12, 2019
+		**PyTorch machine learning library?
+		**tensorflow.com?
+
+written with J Notebook in Python
+
+used multiple libraries
+	-check on Canvas
+	-MLPClassifier class
+
+we need to scale the data from [0,1] 
+	-divide datatset by 255
+	-// i think he said ACII values?
+	-// do not change learning_rate when training
+
+PYTHON
+(trainX, testX, trainY, testY) = train_test_split(dataset.data/255.0, dataset.target.astype("int0")
+
+rules of convergence
+
+MODEL STUFF
+	data > preprocess > create model > train (fit) > test (predict) percentage
+
+-// what are precision and recall values? this has to do something when evaluating the values that we are predicting? 

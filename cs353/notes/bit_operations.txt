@@ -1,0 +1,64 @@
+Nov. 12, 2019
+
+a bit can mean one of a pair of characteristics
+
+16 color scheme => 4bits for each pixel
+
+RGB => 0-255, 8bits
+
+
+BIT OPERATIONS
+	-1 bit operations
+
+	-C uses ! for logical not
+	-C uses ~ for a bit-wise not
+		!0 == 1
+		!1 == 0
+		~0 == 1
+		~1 == 0
+
+	-assembly
+		not rax ;
+		not dward [x]
+
+	-C uses & for logical and
+	-C uses && for bit-wise and
+	-// we can use the bit-wise operator to select bits
+		11001100b & 00001111b = 00001100b
+		0xabcdefab & 0xff == 0xab (1010 a, 1011 b)
+
+	-assembly
+		and rbx, 0xf
+
+		#dividing, 0x12345678 by 16
+		#find remainder, put it into another register
+		rdx <= 0
+		idiv rcx
+
+	-C uses | for logical or
+	-C uses || for bit-wise  or (bit setter)
+
+SHIFT OPERATIONS
+	-shifting left or right
+	- use, << or >> , left to multiply by power 2, right is divide by power 2
+
+FILLING A FIELD
+	-2 ways to fill a field
+	-you can shift the field and a mask and then use them
+		[a][b][c]     -// want to keep [b] and [c] intact, but change b
+			-// mask of m - k + 1 
+	-// need to check out rotating:w
+
+
+
+Nov. 14, 2019
+
+(assembly)
+	bts qword[set], 4  => tests the bit, then sets the bit group value
+	bts qword[set+8], 4  => [set+8], gets the bits at [set] but then moves 8 bits to the right, sets 8th bit to 4?
+	setc dl  => whatever carry flag value is, it'll set it in dl register
+	
+	(temp variable//variable value swapping algorithm -- like other sorting algorithms)
+	a = a^b
+	b = a^b
+	a = a^b

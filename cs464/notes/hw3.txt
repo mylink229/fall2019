@@ -1,0 +1,5 @@
+Nov. 12, 2019
+
+	-we go through training, make a model, and that model is the result what we present
+
+task 2: need to learn splits, use training set and validation set, DO NOT USE TEST DATA
