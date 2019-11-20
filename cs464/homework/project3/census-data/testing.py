@@ -1,254 +1,177 @@
 from sklearn.ensemble import RandomForestClassifier 
 from sklearn import tree
+from sklearn.impute import SimpleImputer
 import numpy
 import pandas as panda
+from sklearn.model_selection import train_test_split
 
+##########
+# TASK 1 #
+##########
 column_names = ['age', 'workclass', 'education', 'marital-status', 
             'occupation', 'relationship', 'race', 'sex', 'capital-gain', 
             'capital-loss', 'hours-per-week', 'native-country', '50k']
 
-#trainDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/adult_train.txt", sep = ",", header = None, names = ["age", "workclass", "education", "marital-status", "occupation", "relationship", "race", "sex", "capital-gain", "capital-loss", "hours-per-week", "native-country"])
-#testDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/adult_test.txt", sep = ",", header = None, names = ["age", "workclass", "education", "marital-status", "occupation", "relationship", "race", "sex", "capital-gain", "capital-loss", "hours-per-week", "native-country"])
-trainDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/adult_train.txt", header = None)
-testDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/adult_test.txt", header = None)
-featuresDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/features.txt", sep = ",", header = None)
+trainDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/adult_train.txt", header = None, na_values=" ?").copy()
+testDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/adult_test.txt", header = None, na_values= " ?").copy()
+featuresDataFrame = panda.read_csv("/home/chufu/Documents/fall2019/cs464/homework/project3/census-data/features.txt", sep = ":,|_", engine="python", header = None).copy()
+
 trainDataFrame.columns = column_names
-
-#trainAgeMean = trainDataFrame["age"].mean()
-#trainAgeMedian = trainDataFrame["age"].median()
-
-#trainCapitalGainMean = trainDataFrame["capital-gain"].mean()
-#trainCapitalGainMedian = trainDataFrame["capital-gain"].median()
-
-#trainCapitalLossMean = trainDataFrame["capital-loss"].mean()
-#trainCapitalLossMedian = trainDataFrame["capital-loss"].median()
-
-#trainHrPerWeekMean = trainDataFrame["hours-per-week"].mean()
-#trainHrPerWeekMedian = trainDataFrame["hours-per-week"].median()
-
-#i = 0
-#l = 0
-#for j in trainDataFrame:
-    #for k in 12:
-    #if trainDataFrame.iat[i,l] == "?":
-        #trainDataFrame.iat[i, l] =
-
-i = 0 # x
-l = 0 # y 
-for j in trainDataFrame["age"]:
-    for k in range(13):
-        if trainDataFrame.iat[l, i] == "?":
-            if k == 0:
-                trainDataFrame.iat[l, k] = trainDataFrame["age"].mean()
-
-            if k == 1:
-                trainDataFrame.iat[l,k] = trainDataFrame["workclass"].mode()
-
-            if k == 2:
-                trainDataFrame.iat[l,k] = trainDataFrame["education"].mode()
-
-            if k == 3:
-                trainDataFrame.iat[l,k] = trainDataFrame["marital-status"].mode()
-
-            if k == 4:
-                trainDataFrame.iat[l,k] = trainDataFrame["occupation"].mode()
-
-            if k == 5:
-                trainDataFrame.iat[l,k] = trainDataFrame["relationship"].mode()
-
-            if k == 6:
-                trainDataFrame.iat[l,k] = trainDataFrame["race"].mode()
-
-            if k == 7:
-                trainDataFrame.iat[l,k] = trainDataFrame["sex"].mode()
-
-            if k == 8:
-                trainDataFrame.iat[l,k] = trainDataFrame["capital-gain"].mean()
-
-            if k == 9:
-                trainDataFrame.iat[l,k] = trainDataFrame["capital-loss"].mean()
-                
-            if k == 10:
-                trainDataFrame.iat[l,k] = trainDataFrame["hours-per-week"].mean()
-
-            if k == 11:
-                trainDataFrame.iat[l,k] = trainDataFrame["workclass"].mode()
-
-            if k == 12:
-                trainDataFrame.iat[l,k] = trainDataFrame["50k"].mode()
-        #i+=1
-    l+=1
-
-
-
-    if trainDataFrame["workclass"][i] == "?":
-        trainDataFrame.iat[1,i] = trainDataFrame["workclass"].mode()
-
-    if trainDataFrame["education"][i] == "?":
-        trainDataFrame.iat[2,i] = trainDataFrame["education"].mode() 
-
-    if trainDataFrame["marital-status"][i] == "?":
-        trainDataFrame.iat[3, i] = trainDataFrame["marital-status"].mode()
-
-    if trainDataFrame["occupation"][i] == "?":
-        trainDataFrame.iat[4, i] = trainDataFrame["occupation"].mode()
-
-    if trainDataFrame["relationship"][i] == "?":
-        trainDataFrame.iat[5,i] = trainDataFrame["relationship"].mode()
-
-    if trainDataFrame["race"][i] == "?":
-        trainDataFrame.iat[6,i] = trainDataFrame["race"].mode() 
-
-    if trainDataFrame["sex"][i] == "?":
-        trainDataFrame.iat[7, i] = trainDataFrame["sex"].mode() 
-
-    if trainDataFrame["capital-gain"][i] == "?":
-        trainDataFrame.iat[8, i] = trainDataFrame["capital-gain"].mean() 
-
-    if trainDataFrame["capital-loss"][i] == "?":
-        trainDataFrame.iat[9, i] = trainDataFrame["capital-loss"].mean()
-
-    if trainDataFrame["hours-per-week"][i] == "?":
-        trainDataFrame.iat[l, i] = trainDataFrame["hours-per-week"].mean()
-
-    if trainDataFrame["native-country"][i] == "?":
-        trainDataFrame.iat["native-country"][i] = trainDataFrame["native-country"].mode() 
-
-    if trainDataFrame["50k"][i] == "?":
-        trainDataFrame.iat["50k"][i] = trainDataFrame["50k"].mode() 
-    i+=1
-
-i = 0
-for j in testDataFrame["age"]:
-    if testDataFrame["age"][i] == "?":
-        testDataFrame["age"][i] = testDataFrame["age"].mean()
-
-    if testDataFrame["workclass"][i] == "?":
-        testDataFrame["workclass"][i] = testDataFrame["workclass"].mode()
-
-    if testDataFrame["education"][i] == "?":
-        testDataFrame["education"][i] = testDataFrame["education"].mode() 
-
-    if testDataFrame["marital-status"][i] == "?":
-        testDataFrame["marital-status"][i] = testDataFrame["marital-status"].mode()
-
-    if testDataFrame["occupation"][i] == "?":
-        testDataFrame["occupation"][i] = testDataFrame["occupation"].mode()
-
-    if testDataFrame["relationship"][i] == "?":
-        testDataFrame["relationship"][i] = testDataFrame["relationship"].mode()
-
-    if testDataFrame["race"][i] == "?":
-        testDataFrame["race"][i] = testDataFrame["race"].mode() 
-
-    if testDataFrame["sex"][i] == "?":
-        testDataFrame["sex"][i] = testDataFrame["sex"].mode() 
-
-    if testDataFrame["capital-gain"][i] == "?":
-        testDataFrame["capital-gain"][i] = testDataFrame["capital-gain"].mean() 
-
-    if testDataFrame["capital-loss"][i] == "?":
-        testDataFrame["capital-loss"][i] = testDataFrame["capital-loss"].mean()
-
-    if testDataFrame["hours-per-week"][i] == "?":
-        testDataFrame["hours-per-week"][i] = testDataFrame["hours-per-week"].mean()
-
-    if testDataFrame["native-country"][i] == "?":
-        testDataFrame["native-country"][i] = testDataFrame["native-country"].mode() 
-
-    if testDataFrame["50k"][i] == "?":
-        testDataFrame["50k"][i] = testDataFrame["50k"].mode() 
-    i+=1
-
-i = 0
-for j in trainDataFrame["age"]:
-    if trainDataFrame["age"][i] == "?":
-        trainDataFrame["age"][i] = trainDataFrame["age"].mean()
-
-    if trainDataFrame["workclass"][i] == "?":
-        trainDataFrame["workclass"][i] = trainDataFrame["workclass"].mode()
-
-    if trainDataFrame["education"][i] == "?":
-        trainDataFrame["education"][i] = trainDataFrame["education"].mode() 
-
-    if trainDataFrame["marital-status"][i] == "?":
-        trainDataFrame["marital-status"][i] = trainDataFrame["marital-status"].mode()
-
-    if trainDataFrame["occupation"][i] == "?":
-        trainDataFrame["occupation"][i] = trainDataFrame["occupation"].mode()
-
-    if trainDataFrame["relationship"][i] == "?":
-        trainDataFrame["relationship"][i] = trainDataFrame["relationship"].mode()
-
-    if trainDataFrame["race"][i] == "?":
-        trainDataFrame["race"][i] = trainDataFrame["race"].mode() 
-
-    if trainDataFrame["sex"][i] == "?":
-        trainDataFrame["sex"][i] = trainDataFrame["sex"].mode() 
-
-    if trainDataFrame["capital-gain"][i] == "?":
-        trainDataFrame["capital-gain"][i] = trainDataFrame["capital-gain"].mean() 
-
-    if trainDataFrame["capital-loss"][i] == "?":
-        trainDataFrame["capital-loss"][i] = trainDataFrame["capital-loss"].mean()
-
-    if trainDataFrame["hours-per-week"][i] == "?":
-        trainDataFrame["hours-per-week"][i] = trainDataFrame["hours-per-week"].mean()
-
-    if trainDataFrame["native-country"][i] == "?":
-        trainDataFrame["native-country"][i] = trainDataFrame["native-country"].mode() 
-
-    if trainDataFrame["50k"][i] == "?":
-        trainDataFrame["50k"][i] = trainDataFrame["50k"].mode() 
-    i+=1
-
-i = 0
-for j in testDataFrame["age"]:
-    if testDataFrame["age"][i] == "?":
-        testDataFrame["age"][i] = testDataFrame["age"].mean()
-
-    if testDataFrame["workclass"][i] == "?":
-        testDataFrame["workclass"][i] = testDataFrame["workclass"].mode()
-
-    if testDataFrame["education"][i] == "?":
-        testDataFrame["education"][i] = testDataFrame["education"].mode() 
-
-    if testDataFrame["marital-status"][i] == "?":
-        testDataFrame["marital-status"][i] = testDataFrame["marital-status"].mode()
-
-    if testDataFrame["occupation"][i] == "?":
-        testDataFrame["occupation"][i] = testDataFrame["occupation"].mode()
-
-    if testDataFrame["relationship"][i] == "?":
-        testDataFrame["relationship"][i] = testDataFrame["relationship"].mode()
-
-    if testDataFrame["race"][i] == "?":
-        testDataFrame["race"][i] = testDataFrame["race"].mode() 
-
-    if testDataFrame["sex"][i] == "?":
-        testDataFrame["sex"][i] = testDataFrame["sex"].mode() 
-
-    if testDataFrame["capital-gain"][i] == "?":
-        testDataFrame["capital-gain"][i] = testDataFrame["capital-gain"].mean() 
-
-    if testDataFrame["capital-loss"][i] == "?":
-        testDataFrame["capital-loss"][i] = testDataFrame["capital-loss"].mean()
-
-    if testDataFrame["hours-per-week"][i] == "?":
-        testDataFrame["hours-per-week"][i] = testDataFrame["hours-per-week"].mean()
-
-    if testDataFrame["native-country"][i] == "?":
-        testDataFrame["native-country"][i] = testDataFrame["native-country"].mode() 
-
-    if testDataFrame["50k"][i] == "?":
-        testDataFrame["50k"][i] = testDataFrame["50k"].mode() 
-    i+=1
+testDataFrame.columns = column_names
+
+trainWorkclassMode = trainDataFrame["workclass"].mode()
+trainOccupationMode = trainDataFrame["occupation"].mode()
+trainNativeCountryMode = trainDataFrame["native-country"].mode()
+
+trainDataFrame["workclass"].fillna(trainWorkclassMode, inplace = True)
+trainDataFrame["occupation"].fillna(trainOccupationMode, inplace = True)
+trainDataFrame["native-country"].fillna(trainNativeCountryMode, inplace = True)
 
 ##########
 # TASK 2 #
 ##########
 # column names are essentially the features
 #feature_len = len(column_names)
+
+new_feature_values = []
+j = 0
+for i in trainDataFrame["age"]:
+    if trainDataFrame.at[j, "age"] == " ?":
+        item = ["age", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["age", trainDataFrame.at[j, "age"]]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["workclass"]:
+    if trainDataFrame.at[j, "workclass"] == " ?":
+        item = ["workclass", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["workclass", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["education"]:
+    if trainDataFrame.at[j, "education"] == " ?":
+        item = ["education", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["education", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["marital-status"]:
+    if trainDataFrame.at[j, "marital-status"] == " ?":
+        item = ["marital-status", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["marital-status", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["occupation"]:
+    if trainDataFrame.at[j, "occupation"] == " ?":
+        item = ["occupation", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["occupation", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["relationship"]:
+    if trainDataFrame.at[j, "relationship"] == " ?":
+        item = ["relationship", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["relationship", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["race"]:
+    if trainDataFrame.at[j, "race"] == " ?":
+        item = ["race", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["race", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["sex"]:
+    if trainDataFrame.at[j, "sex"] == " ?":
+        item = ["sex", 0]
+        new_feature_values.append(item)
+    else:
+        item = ["sex", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["capital-gain"]:
+    if trainDataFrame.at[j, "capital-gain"] == " ?":
+        item = ["capital-gain", trainDataFrame.at[j, "capital-gain"]]
+        new_feature_values.append(item)
+    else:
+        item = ["capital-gain", trainDataFrame.at[j, "capital-gain"]]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["capital-loss"]:
+    if trainDataFrame.at[j, "capital-loss"] == " ?":
+        item = ["capital-loss", trainDataFrame.at[j, "capital-loss"]]
+        new_feature_values.append(item)
+    else:
+        item = ["capital-loss", 1]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["hours-per-week"]:
+    if trainDataFrame.at[j, "hours-per-week"] == " ?":
+        item = ["hours-per-week", trainDataFrame.at[j, "hours-per-week"]]
+        new_feature_values.append(item)
+    else:
+        item = ["hours-per-week", trainDataFrame.at[j, "hours-per-week"]]
+        new_feature_values.append(item)
+    j+=1
+
+j = 0
+for i in trainDataFrame["50k"]:
+    if trainDataFrame.at[j, "50k"] == " ?":
+        item = ["50k", trainDataFrame.at[j, "50k"]]
+        new_feature_values.append(item)
+    else:
+        item = ["50k", trainDataFrame.at[j, "50k"]]
+        new_feature_values.append(item)
+    j+=1
+
+    if i != trainDataFrame["age"][j].isnull():
+        print(trainDataFrame["age"][j])
+
+
+test = train_test_split(
+    new_feature_values,
+    trainDataFrame,
+    train_size = 0.70,
+    test_size = 0.30,
+    random_state = 85
+    )
+
+
+
+
+
+
+
 
 workclass = ["workclass", "Private", "Self-emp-not-inc", "Self-emp-inc", "Federal-gov", "Local-gov", "State-gov", "Without-pay", "Never-worked"]
 education = ["education", "Bachelors", "Some-college", "11th", "HS-grad", "Prof-school", "Assoc-acdm", "Assoc-voc", "9th", "7th-8th", "12th", "Masters", "1st-4th", "10th", "Doctorate", "5th-6th", "Preschool"]
