@@ -1,0 +1,13 @@
+November 26, 2019
+
+b	resq 10  => b[10] = [0, 0, 0, 0, 0, 0, 0, 0]
+
+
+call	my_function  => calls a function
+
+
+
+## THIS IS WHAT NEEDS TO BE WRITTEN ALL THE TIME FIRST
+push rbp
+mov rbp, rsp
+sub rsp, multiple_of_16

@@ -27,6 +27,8 @@ trainDataFrame["workclass"].fillna(trainWorkclassMode, inplace = True)
 trainDataFrame["occupation"].fillna(trainOccupationMode, inplace = True)
 trainDataFrame["native-country"].fillna(trainNativeCountryMode, inplace = True)
 
+/
+
 ##########
 # TASK 2 #
 ##########

@@ -1,0 +1,23 @@
+Nov 21, 2019
+
+loops:
+
+for:	cmp	rcx, rdx
+	...	..	..	
+	...	..	..	
+	## need this jmp
+	jmp	...	..	
+end_for:
+
+rep movsb  => repeat move string byte, but need to do: mov rcx, VALUE; before using: rep movsb;
+
+mov eax, 1
+mov ecx, 1,000,000
+lea	rdi, [desitnation]
+rep	stosd (store string double word)
+
+
+loadsb (also works, load string byte)
+scasb (scan string byte)
+
+when storing strings into 2 registers, then subtract, it'll get the difference of the two strings (numeric value of change)
