@@ -132,7 +132,6 @@ def breadthFirstSearch(problem):
                 fringe.push((s[0], directions + [s[1]], cost + s[2]))
                 vistedSuccessors.append(s[0])
         (currentState, directions, cost) = fringe.pop()
-
     return directions
 
 def uniformCostSearch(problem):

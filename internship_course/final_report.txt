@@ -1,0 +1,14 @@
+Tswjfwmeng Vang
+Profesor Anam
+Internship Course
+December 13, 2019
+
+	Final Report
+
+	In my previous report, there were difficulties implementing the Bulk Edit function to the BI Lookup Tables web app. After some invegegation, the issue was caused on the client-side of the web app, where a FOREACH loop was performed. It turns out that using a FOREACH loop toallow a model to be altered is incorrect. Instead, a FOR loop is needed, giving each item a unique identifier unlike a FOREACH loop. This enables us the ability to iterate though the object. Since I have made the change of the FOR loops, the Bulk Edit function works. Fixing the Bulk Edit meant the queue to push this web app for production. It's been about a month since the push to production.
+
+	Introducing my new project, the BI Hub. This new project's goal is to act like a hub where some of the BI and other financial departments can access through their internal network. One portion of the BI Hub is dedicated to run mothly file execution of two batch files. A lot of server-side programming was done in order to achieve this goal. Similar to the BI Lookup Tables project, this web app was also developed with ASP.NET (MVC), HTML, CSS, JavaScript, and C#. A challenge for this portion of the project was that this web app will be ran from a different company building hosted in another state. Due to that issue, I had to alter the Authorization and Authentication methods that I was available to me (IIS Windows Authentication). Instead of changing the security methods to allow the correct network users to utilize the app, I completely made it usable to all members in our company network. Programming the server-side functions to run the monthly batch scripts and altering the security methods took up most of the work.
+	
+	Going into detail about the server-side functions, everything was written with C# and PS. Thankfully, in C# there's a class that allows a web-client to call a PowerShell script. I used this class to call on a PS script that then will connect to the designated file-server that hosts the monthly executed batch files. The PS script will return the results of the batch files and depending on what is returned, a "Successful" or "Failure" page will show in the web-app.
+	
+	The next portion of the BI Hub is dedicated for a fiancial department employee to do some data entry. I'm in the middle of the progress of this next portion of the BI Hub. So far, I have developed a front-end that allows the employee to copy-and-paste in data from an Excel sheet to the SQL DB. The copy-and-paste function uses JavaScript to do the parsing of the data and creating a HTML table. Then in theory, this table will make it easier for me to insert into a SQL DB. I've just been waiting for some SQL server details before I start testing to push data into the SQL DB.

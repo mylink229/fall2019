@@ -1,0 +1,7 @@
+December 3rd, 2019
+
+We need to figure out the Pythagrean Therum or Pytahngrean Triple?
+
+write the method
+need 3 nested FOR loops
+recursion?
