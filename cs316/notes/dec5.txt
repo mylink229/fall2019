@@ -1,0 +1,21 @@
+December 5, 2019
+
+Multithreading
+	-each thread has its own stack
+	-new life cycle => new state => runnable 
+				()=> waiting  (notify // notify all)
+				()=> time waiting (wait step)
+				()=> terminated  (task completes)
+				()=> block  (enter synchronized, interrupt)
+	-thread priority (Executor interface)
+	-deadlock means that threads cannot continue due to a chain reaction of threads
+	being stuck
+	-needs to implement Runnable
+
+--JAVA--
+synchronized
+wait
+notify
+notifyAll
+locks
+conditions
