@@ -12,10 +12,10 @@ main:
 mov edx, [n-1]
 xor ecx, ecx
 for: cmp    ecx, edx
-    je  end_for
     mov eax, [a+rcx*2]
     imul eax, [b+rcx*2]
     mov [c+ecx*2], eax
     inc ecx
     jmp for
 end_for:
+

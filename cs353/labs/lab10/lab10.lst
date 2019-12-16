@@ -430,6 +430,306 @@
    430                              <1>      local i
    431                              <1>      %assign i i+1
    432                              <1> %endrep
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
+   432                              <2>  local i
+   432                              <3> local%1 equ -8*(%1-4)
+   432                              <2>  %assign i i+1
    433                              <1> %undef i   
    434                              <1> ;   Windows
    435                              <1> ;   Where to place extra parameters when you call a function with
@@ -449,6 +749,294 @@
    449                              <1>         newpar i
    450                              <1>         %assign i i+1
    451                              <1> %endrep
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
+   451                              <2>  newpar i
+   451                              <3> newPar%1 equ 8*(i-1)
+   451                              <2>  %assign i i+1
    452                              <1> %undef i   
    453                              <1> 
    454                              <1> ;   Windows
@@ -470,6 +1058,294 @@
    470                              <1>         parequ i
    471                              <1>         %assign i i+1
    472                              <1> %endrep
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
+   472                              <2>  parequ i
+   472                              <3> currPar%1 equ 8*(%1+1)
+   472                              <2>  %assign i i+1
    473                              <1> %undef i   
    474                              <1> 
    475                              <1> %else                       ; Linux/OS X
@@ -505,306 +1381,6 @@
    505                              <1>      local i
    506                              <1>      %assign i i+1
    507                              <1> %endrep
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
-   507                              <2>  local i
-   507                              <3> local%1 equ -8*%1
-   507                              <2>  %assign i i+1
    508                              <1> %undef i
    509                              <1>    
    510                              <1> ;   Linux
@@ -825,288 +1401,6 @@
    525                              <1>         newpar i
    526                              <1>         %assign i i+1
    527                              <1> %endrep
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
-   527                              <2>  newpar i
-   527                              <3> newPar%1 equ 8*(i-7)
-   527                              <2>  %assign i i+1
    528                              <1> %undef i
    529                              <1> 
    530                              <1> ;   Linux
@@ -1128,288 +1422,6 @@
    546                              <1>         parequ i
    547                              <1>         %assign i i+1
    548                              <1> %endrep
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
-   548                              <2>  parequ i
-   548                              <3> currPar%1 equ 16+8*(%1-7)
-   548                              <2>  %assign i i+1
    549                              <1> %undef i
    550                              <1> 
    551                              <1> %endif      ; from original test on WINDOWS
@@ -1495,19 +1507,20 @@
      3 00000008 0500060007000800        b dw 5,6,7,8
      4                                  
      5                                  ;will hold the sum
-     6 00000010 0000                    c dw 0
-     7 00000012 0A00                    n dw 10
+     6                                  c dw
+     6          ******************       warning: no operand for data declaration
+     7 00000010 0400                    n dw 4
      8                                  
      9                                      segment .text
     10                                      global main
     11                                  main:
-    12 00000000 8B1425[12000000]        mov edx, [n]
+    12 00000000 8B1425[0F000000]        mov edx, [n-1]
     13 00000007 31C9                    xor ecx, ecx
     14 00000009 39D1                    for: cmp    ecx, edx
-    15 0000000B 741B                        je  end_for
-    16 0000000D 8B8409[00000000]            mov eax, [a+rcx*2]
-    17 00000014 0FAF8409[08000000]          imul eax, [b+rcx*2]
-    18 0000001C 67898409[10000000]          mov [c+ecx*2], eax
-    19 00000024 FFC1                        inc ecx
-    20 00000026 EBE1                        jmp for
-    21                                  end_for:
+    15 0000000B 8B8409[00000000]            mov eax, [a+rcx*2]
+    16 00000012 0FAF8409[08000000]          imul eax, [b+rcx*2]
+    17 0000001A 67898409[10000000]          mov [c+ecx*2], eax
+    18 00000022 FFC1                        inc ecx
+    19 00000024 EBE3                        jmp for
+    20                                  end_for:
+    21                                  
