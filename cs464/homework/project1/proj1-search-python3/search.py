@@ -89,45 +89,24 @@ def depthFirstSearch(problem):
     #print("Is the start a goal?", problem.isGoalState(problem.getStartState())) #false
     #print("Is the start a goal?", problem.isGoalState((1,1))) #true
     #print("Start's successors:", problem.getSuccessors(problem.getStartState()))
- 
-    #start = problem.getStartState()
-    """fringe = util.Stack()
-    vistedSuccessors = []
 
-    # gets start state
     currentState = problem.getStartState()
-    # no direction since just starting
-    direction = []
-    # cost = 0 since just starting
-    cost = 0
-    vistedSuccessors.append(currentState)
+    fringe = util.Stack()
+    visitedSuccessors = []
+    fringe.push((currentState, []))
 
-    # before this while loop, currentState == (5,5)
-    # therefore, the goal state is false and will 
-    # kick off this loop
     while not problem.isGoalState(currentState):
-        sucessors = problem.getSuccessors(currentState)
-        for s in sucessors:
-            if (s[0] not in vistedSuccessors ):
-                fringe.push((s[0], direction + [s[1]], cost + s[2]))
-                vistedSuccessors.append(s[0])
-        (currentState, direction, cost) = fringe.pop()
-    return direction"""
-    node = Node(problem.getStartState())
-    if problem.isGoalState(problem.getStartState()): return node.solution()
-    frontier = util.Stack()
-    frontier.push(node)
-    explored = set()
-    while not frontier.isEmpty():
-        node = frontier.pop()
-        if problem.isGoalState(node.state): return node.solution()
-        explored.add(node.state)
-        for child in node.expand(problem):
-            if child.state not in explored:
-                frontier.push(child)
-    return []
+        newNode, directions = fringe.pop()
+        if newNode not in visitedSuccessors:
+            visitedSuccessors.append(newNode)
 
+            if problem.isGoalState(newNode):
+                return directions
 
+            for nextNode, direction, cost in problem.getSuccessors(newNode):
+                newDirection = directions + [direction]
+                fringe.push((nextNode, newDirection))
+    return directions
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
@@ -147,47 +126,33 @@ def breadthFirstSearch(problem):
                 fringe.push((s[0], directions + [s[1]], cost + s[2]))
                 vistedSuccessors.append(s[0])
         (currentState, directions, cost) = fringe.pop()
+
     return directions
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    fringe = util.PriorityQueue() 
-    visitedSuccessor = []
-    currentState = problem.getStartState
-    directions = []
-    cost = 0
-    totalCost = 0
 
-    fringe.push((problem.getStartState(),[],0),0)
+    currentState = problem.getStartState()
 
-    (currentState,directions,cost) = fringe.pop()
+    visitedSuccessors = []
 
-    visitedSuccessor.append((currentState,cost))
+    fringe = util.PriorityQueue()
+    fringe.push((currentState, [], 0), 0)
 
     while not problem.isGoalState(currentState): 
-        successors = problem.getSuccessors(currentState) 
-        for s in successors:
-            visitedExist = False
-            totalCost = cost + s[2]
-            for (visitedState, visitedToCost) in visitedSuccessor:
-                if (s[0] == visitedState) and (cost >= visitedToCost): 
-                    visitedExist = True
-                    break
+        newNode, direction, newCost = fringe.pop()
+        if newNode not in visitedSuccessors:
+            visitedSuccessors.append(newNode)
 
-            if not visitedExist:        
-                fringe.push((s[0],directions + [s[1]],cost + s[2]),cost + s[2]) 
-                visitedSuccessor.append((s[0],cost + s[2])) 
+            if problem.isGoalState(newNode):
+                return direction
 
-        (currentState,directions,cost) = fringe.pop()
-
-    return directions
-
-
-
-
-
-
+            for nextNode, nextDirection, nextCost in problem.getSuccessors(newNode):
+                newDirection = direction + [nextDirection]
+                cost = newCost + nextCost
+                fringe.push((nextNode, newDirection, cost),cost)
+    return direction
 
 def nullHeuristic(state, problem=None):
     """
